@@ -32,6 +32,13 @@ html{
 }
 
 //nav
+.navbar{
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+}
 nav{
   overflow-x: hidden !important;
   position: absolute !important;
@@ -318,7 +325,7 @@ input{
   }
   .DA a:hover, .TA a:hover{
     color: #141414 !important;
-    text-decoration: underline !;
+    text-decoration: underline;
   }
 }
 
