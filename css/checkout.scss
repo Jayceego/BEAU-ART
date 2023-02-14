@@ -1,0 +1,30 @@
+
+.item1{
+  overflow: hidden;
+  p{margin: 0;}
+  
+  .item-img{
+    width: 150%;
+    overflow: hidden;
+
+    img{
+      width: 12% !important;
+      height: auto;
+      }
+  }
+}
+.check-price{
+  input{
+    width: 30% !important;
+  }
+}
+
+.bb1{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+}
+.cart-title{
+  font-size: 3rem;
+}
+.alert{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

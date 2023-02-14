@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="html/login.css"> -->
+  <script src="https://kit.fontawesome.com/047974f2fc.js" crossorigin="anonymous"></script>
+  <title>BEAU ART</title>
+</head>
+<body>
+  <!-- brand -->
+  <div class="brand pt-md-2">
+    <a class="navbar-brand" href="#">Beau Art</a>
+  </div>
+
+  <!-- menu -->
+  <nav class="navbar navbar-expand- navbar-light mx-lg-5 mt-2 ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ml-3 active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link" href="html/digital.html">Digital</a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link" href="html/traditional.html">Traditional</a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link" href="#product">Product</a>
+        </li>
+      </ul>
+
+      <!-- icons nav -->
+      <div class="icons-nav d-flex d-md-none row">
+            <!-- search -->
+            <div class="col-4 d-flex justify-content-start">
+              <form class="form-inline position-relative p-0">
+                <input class="form-control m-0" type="search" placeholder=" type to search.." aria-label="Search">
+                <a class="btn my-sm-0 p-0" type="submit">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+              </form>
+            </div>
+
+            <div class="col-4 d-flex justify-content-center">
+              <a href="html/checkout.html" class="cart position-relative">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </div>
+            <div class="col-4 d-flex justify-content-center">
+              <a href="#"><i class="fa-solid fa-user"></i></a>
+            </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="right-side d-none d-md-flex">
+    <!-- search -->
+    <form class="form-inline position-relative">
+      <a class="btn my-sm-0 " type="submit">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </a>
+
+      <input class="form-control mr-3" type="search" placeholder=" type to search.." aria-label="Search">
+      
+    </form>
+
+      <a href="html/checkout.html" class="mr-3 mt-3 pt-1 cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </a> 
+    <button data-toggle="modal" data-target="#login" class="zomm mr-md-5 mr-3 my-3 btn btn-outline-dark login">LOGIN</button>
+  </div>
+
+
+  <!-- hero -->
+  <div class="container-lg hero mt-md-5 p-0">
+    <div class="row text-right mx-1 pt-md-5">
+      <div class="col-md-6 get-started align-self-center text-left">
+        <h1>Art Market for all your Preference
+        </h1>
+        <p>A diverse world of art where you may buy and sell a range of different types of artworks, whether physical or digital.</p>
+
+        <a class="btn btn-outline-dark explore" href="#product">
+          EXPLORE
+        </a>
+      </div>
+      <div class="col-md-6 peeps align-self-center">
+        <img  src=" img/peeps with space.png" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Categories -->
+  <div class="container-lg categories mt-5 p-0" id="category">
+    <div class="title-categories mx-3">
+      <h3>CATEGORIES</h3>
+      <p>An artist-friendly virtual exhibit and income opportunity that showcases an ntire collection of works.</p>
+    </div>
+
+    <div class="row mx-1 my-5">
+
+      <!-- digital -->
+      <div class="col-md-6 position-relative ">
+        <a href="html/digital.html" >
+          <div class="digital-img p-sm-5 p-3">
+            <img class="align-self-center" src=" img/digital.png" alt="">
+            <h2 class="text-left pt-3"> Digital <br> Art</h2>
+            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus suscipit, rem pariatur autem quia quam.</span>
+            <p class="pt-2">SEE MORE <i class="fa-solid fa-arrow-right"></i></p>
+          </div>
+        </a>
+      </div>
+
+      <!-- Traditional -->
+      <div class="col-md-6 mt-md-0 mt-5 pr-3 pl-3">
+        <a href="html/traditional.html" >
+          <div class="traditional-img p-sm-5 p-3">
+            <img class="align-self-center mx-2" src=" img/traditional.png" alt="">
+            <h2 class="text-left pt-3">Traditional <br> Art</h2>
+            <span >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus suscipit, rem pariatur autem quia quam.</span>
+            <p class="pt-2">SEE MORE <i class="fa-solid fa-arrow-right"></i></p>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- new arrivals -->
+  <div class="arrival container"  id="product">
+    <h1 class="new-arrivals my-5 mx-3">New Arrivals</h1>
+    <p class="arrival-content mx-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo est assumenda quaerat praesentium reiciendis consequuntur, sapiente corporis non ipsum autem quibusdam, ipsa fugiat magnam! Enim, officiis. Doloribus, minus perferendis a dolore est ducimus ipsam corrupti sequi assumenda ad libero in eius autem. Exercitationem tempore aperiam asperiores magnam doloremque quo unde.</p>
+  </div>
+
+  <div class="items my-5 mb-2 ">
+    <ul class="nav flex-row ">
+      <div class="nav flex-row d-flex justify-content-center mx-auto mx-md-0">
+        <li class="nav-item top">
+          <a class="nav-link pr-0 pl-0" href="#" style="cursor: default;">Top Product</a>
+        </li>
+        <li class="nav-item TA text-center">
+          <a class="nav-link pr-0" href="html/traditional.html">Traditional</a>
+        </li>
+        <li class="nav-item DA ">
+          <a class="nav-link" href="html/digital.html">Digital</a>
+        </li>
+      </div>
+      <li class="nav-item col-12 col-md-auto ml-auto all-prod pr-0">
+        <a class="nav-link pr-0" href="html/product.html">All Product</a>
+      </li>
+    </ul>
+
+    <!-- Product -->
+    <!-- layer 1 -->
+    <div class="row art pr-2 pl-2">
+      <!-- 1 -->
+      <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
+        <!-- artwork -->
+        <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
+          <img class="" src="img/art.jpg" alt="">
+        </a>
+        <!-- Artist name -->
+        <div class="sub-text justify-content-end align-items-center mt-1 py-1 py-md-2 px-1">
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
+          <a href="" class="m-0 mr-auto name">Name</a>
+          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
+          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png"/></a>
+        </div>
+
+        <!-- art description -->
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
+        <div class="price d-flex justify-content-end px-1">
+          <a href="" class="mr-auto text-muted"><p><strong>₱1,540</strong></p></a>
+          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
+        <!-- artwork -->
+        <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
+          <img class="" src="img/art2.png" alt="">
+        </a>
+        <!-- Artist name -->
+        <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
+          <a href="" class="m-0 mr-auto name">Name</a>
+          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
+          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png"/></a>
+        </div>
+
+        <!-- art description -->
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
+        <div class="price d-flex justify-content-end px-1">
+          <a href="" class="mr-auto text-muted"><p><strong>₱1,540</strong></p></a>
+          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
+        <!-- artwork -->
+        <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
+          <img class="" src="img/art3.png" alt="">
+        </a>
+        <!-- Artist name -->
+        <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
+          <a href="" class="m-0 mr-auto name">Name</a>
+          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
+          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png"/></a>
+        </div>
+
+        <!-- art description -->
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
+        <div class="price d-flex justify-content-end px-1">
+          <a href="" class="mr-auto text-muted"><p><strong>₱1,540</strong></p></a>
+          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+        </div>
+      </div>
+      
+      <!-- 4 -->
+      <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
+        <!-- artwork -->
+        <a href="" class="zoom" data-toggle="modal" data-target="#ArtOfTheWeek">
+          <span class="badge badge-danger position-absolute ml-2 mt-2">SALE</span>
+          <img class="" src="img/art4.png" alt="">
+        </a>
+        <!-- Artist name -->
+        <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
+          <a href="" class="m-0 mr-auto name">Name</a>
+          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
+          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png"/></a>
+        </div>
+
+        <!-- art description -->
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
+        <div class="price d-flex justify-content-end px-1">
+          <a href="" class="mr-auto text-muted"><p><strong>₱1,540</strong></p></a>
+          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
+        <!-- artwork -->
+        <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
+          <img class="" src="img/art5.png" alt="">
+        </a>
+        <!-- Artist name -->
+        <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
+          <a href="" class="m-0 mr-auto name">Name</a>
+          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
+          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png"/></a>
+        </div>
+
+        <!-- art description -->
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
+        <div class="price d-flex justify-content-end px-1">
+          <a href="" class="mr-auto text-muted"><p><strong>₱1,540</strong></p></a>
+          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
+        <!-- artwork -->
+        <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
+          <img class="" src="img/art6.png" alt="">
+        </a>
+        <!-- Artist name -->
+        <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
+          <a href="" class="m-0 mr-auto name">Name</a>
+          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
+          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png"/></a>
+        </div>
+
+        <!-- art description -->
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
+        <div class="price d-flex justify-content-end px-1">
+          <a href="" class="mr-auto text-muted"><p><strong>₱1,540</strong></p></a>
+          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- layer 2 -->
+    <div class="row art my-3 pr-2 pl-2">
+      <!-- 1 -->
+      <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
+        <!-- artwork -->
+        <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
+          <img class="" src="img/art7.png" alt="">
+        </a>
+        <!-- Artist name -->
+        <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
+          <a href="" class="m-0 mr-auto name">Name</a>
+          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
+          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png"/></a>
+        </div>
+
+        <!-- art description -->
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
+        <div class="price d-flex justify-content-end px-1">
+          <a href="" class="mr-auto text-muted"><p><strong>₱1,540</strong></p></a>
+          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
+        <!-- artwork -->
+        <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
+          <img class="" src="img/art8.png" alt="">
+        </a>
+        <!-- Artist name -->
+        <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
+          <a href="" class="m-0 mr-auto name">Name</a>
+          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
+          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png"/></a>
+        </div>
+
+        <!-- art description -->
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
+        <div class="price d-flex justify-content-end px-1">
+          <a href="" class="mr-auto text-muted"><p><strong>₱1,540</strong></p></a>
+          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
+        <!-- artwork -->
+        <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
+          <img class="" src="img/art9.png" alt="">
+        </a>
+        <!-- Artist name -->
+        <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
+          <a href="" class="m-0 mr-auto name">Name</a>
+          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
+          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png"/></a>
+        </div>
+
+        <!-- art description -->
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
+        <div class="price d-flex justify-content-end px-1">
+          <a href="" class="mr-auto text-muted"><p><strong>₱1,540</strong></p></a>
+          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+        </div>
+      </div>
+      
+      <!-- 1 -->
+      <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
+        <!-- artwork -->
+        <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
+          <img class="" src="img/art10.png" alt="">
+        </a>
+        <!-- Artist name -->
+        <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
+          <a href="" class="m-0 mr-auto name">Name</a>
+          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
+          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png"/></a>
+        </div>
+
+        <!-- art description -->
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
+        <div class="price d-flex justify-content-end px-1">
+          <a href="" class="mr-auto text-muted"><p><strong>₱1,540</strong></p></a>
+          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
+        <!-- artwork -->
+        <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
+          <img class="" src="img/art13.png" alt="">
+        </a>
+        <!-- Artist name -->
+        <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
+          <a href="" class="m-0 mr-auto name">Name</a>
+          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
+          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png"/></a>
+        </div>
+
+        <!-- art description -->
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
+        <div class="price d-flex justify-content-end px-1">
+          <a href="" class="mr-auto text-muted"><p><strong>₱1,540</strong></p></a>
+          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
+        <!-- artwork -->
+        <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
+          <img class="" src="img/art12.png" alt="">
+        </a>
+        <!-- Artist name -->
+        <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
+          <a href="" class="m-0 mr-auto name">Name</a>
+          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
+          <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png"/></a>
+        </div>
+
+        <!-- art description -->
+        <a href="" ><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
+        <div class="price d-flex justify-content-end px-1">
+          <a href="" class="mr-auto text-muted"><p><strong>₱1,540</strong></p></a>
+          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!---------------------------------------- MODAL --------------------------------------------------->
+
+<!-- Modal -->
+<div class="modal fade pr-0" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header close-btn position-absolute border-0">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body p-5 p-md-0">
+        <div class="row">
+          <!-- Art Image -->
+          <div class="col-lg-6 modalArt">
+            <img class="" src="img/art.jpg" alt="">
+          </div>
+
+          <!-- content -->
+          <div class="col-lg-6 p-0  pr-5">
+
+              <!-- art name -->
+              <h1 class="pt-3 mb-0">Art Name</h1>
+
+              <!-- Artist profile -->
+              <div class="artist-profile d-flex text-left align-items-center pb-3">
+                <a href="" class="prof-pic"> <img src="img/profile.png" alt=""></a>
+                <p class="m-0 mr-auto"><a href="#" class="name">Artist Name</a></p>
+              </div>
+                <!-- price and rating -->
+                <div class="d-flex flex-column flex-sm-row align-items-sm-center justify-content-sm-between mb-4">
+                  <p class=" h4">₱1,540</p>
+                    <div class="d-flex align-items-center text-sm stars">
+                      <i style="color: burlywood;" class="fa-solid fa-star fa-sm"></i>
+                      <i style="color: burlywood;" class="fa-solid fa-star fa-sm"></i>
+                      <i style="color: burlywood;" class="fa-solid fa-star fa-sm"></i>
+                      <i style="color: burlywood;" class="fa-solid fa-star fa-sm"></i>
+                      <i style="color: burlywood;" class="fa-solid fa-star-half-stroke fa-sm"></i>
+                      <!-- <img style="width: 15px; padding-bottom: 2.2px;" src="https://img.icons8.com/metro/26/000000/star.png"/> -->
+                      <span class=" text-muted text-uppercase pl-1" > 35 reviews</span>
+                    </div>
+                </div>
+
+              <!-- description -->
+              <p class=" mb-4 text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ab nemo, amet perferendis libero corporis ea atque nesciunt recusandae, laboriosam maxime ipsam modi debitis? Quos asperiores minus id dignissimos necessitatibus?
+              </p>
+
+              <!-- Checkout form -->
+              <form action="">
+                <div class="row cat_tags">
+                  <!-- Category -->
+                  <div class="col-sm-6">
+                    <h6 class="m-0">Category:</h6>
+                      <a href="#">
+                        Digital
+                      </a>
+                  </div>
+
+                  <!-- Tags -->
+                  <div class=" col-sm-6">
+                    <h6 class="m-0">Tags:</h6>
+                      <a href="#">
+                        Aesthetic,
+                      </a>
+                      <a href="">
+                        Elegant
+                      </a>
+                  </div>
+                </div>
+                <div class=" input-group my-3">
+                  <input name="items" type="number" class=" form-control form-control-lg" value="1">
+                  <button type="button" class="checkout flex-grow-1 btn btn-dark">CHECKOUT</button>
+                </div>
+                
+                <!-- Modal Footer -->
+                <div class="row d-flex justify-content-between modalFooter">
+                  <div class="col-6">
+                    <a href="" class="d-flex align-items-center">
+                      <i style="color: burlywood;" class="fa-solid fa-heart"></i>
+                      <p style="color: burlywood;" class="m-0 pl-2">Add to cart</p>
+                    </a>
+                  </div>
+
+                  <!-- socmed -->
+                  <div class="col-6 text-right">
+                    <a href="#"><i class="fa-brands mr-2 fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands mr-2 fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands mr-2 fa-twitter"></i></a>
+                  </div>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ArtOfTheWeek Modal -->
+
+<!-- Modal -->
+<div class="modal fade pr-0" id="ArtOfTheWeek" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header close-btn position-absolute border-0">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body p-5 p-md-0">
+        <div class="row">
+          <!-- Art Image -->
+          <div class="col-lg-6 modalArt">
+            <img class="" src="img/art4.png" alt="">
+          </div>
+
+          <!-- content -->
+          <div class="col-lg-6 p-0  pr-5">
+
+              <!-- art name -->
+              <h1 class="pt-3 mb-0">Art Name</h1>
+
+              <!-- Artist profile -->
+              <div class="artist-profile d-flex text-left align-items-center pb-3">
+                <a href="" class="prof-pic"> <img src="img/profile.png" alt=""></a>
+                <p class="m-0 mr-auto"><a href="#" class="name">Artist Name</a></p>
+              </div>
+                <!-- price and rating -->
+                <div class="d-flex flex-column flex-sm-row align-items-sm-center justify-content-sm-between mb-4">
+                  <p class=" h4">₱1,540</p>
+                    <div class="d-flex align-items-center text-sm stars">
+                      <i style="color: burlywood;" class="fa-solid fa-star fa-sm"></i>
+                      <i style="color: burlywood;" class="fa-solid fa-star fa-sm"></i>
+                      <i style="color: burlywood;" class="fa-solid fa-star fa-sm"></i>
+                      <i style="color: burlywood;" class="fa-solid fa-star fa-sm"></i>
+                      <i style="color: burlywood;" class="fa-solid fa-star-half-stroke fa-sm"></i>
+                      <!-- <img style="width: 15px; padding-bottom: 2.2px;" src="https://img.icons8.com/metro/26/000000/star.png"/> -->
+                      <span class=" text-muted text-uppercase pl-1" > 35 reviews</span>
+                    </div>
+                </div>
+
+              <!-- description -->
+              <p class=" mb-4 text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ab nemo, amet perferendis libero corporis ea atque nesciunt recusandae, laboriosam maxime ipsam modi debitis? Quos asperiores minus id dignissimos necessitatibus?
+              </p>
+
+              <!-- Checkout form -->
+              <form action="">
+                <div class="row cat_tags">
+                  <!-- Category -->
+                  <div class="col-sm-6">
+                    <h6 class="m-0">Category:</h6>
+                      <a href="#">
+                        Digital
+                      </a>
+                  </div>
+
+                  <!-- Tags -->
+                  <div class=" col-sm-6">
+                    <h6 class="m-0">Tags:</h6>
+                      <a href="#">
+                        Pastel,
+                      </a>
+                      <a href="">
+                        Elegant
+                      </a>
+                  </div>
+                </div>
+                <div class=" input-group my-3">
+                  <input name="items" type="number" class="text-right form-control form-control-lg" value="1">
+                  <button type="button" class="checkout flex-grow-1 btn btn-dark">CHECKOUT</button>
+                </div>
+                
+                <!-- Modal Footer -->
+                <div class="row d-flex justify-content-between modalFooter">
+                  <div class="col-6 d-flex align-items-center">
+                    <a href="" class="d-flex align-items-center" >
+                      <i style="color: burlywood;"  class="fa-solid fa-cart-shopping"></i>
+                      <p style="color: burlywood;" class="m-0 pl-2">Add to cart</p>
+                    </a>
+                  </div>
+
+                  <!-- socmed -->
+                  <div class="col-6 text-right">
+                    <a href="#"><i class="fa-brands mr-2 fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands mr-2 fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands mr-2 fa-twitter"></i></a>
+                  </div>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-------------------------------------------LOGIN AND REGISTER FORM --------------------------------------------------------------------------------------->
+
+  <!---------------------------------------- MODAL --------------------------------------------------->
+  
+  <div class="container-fluid position-relative aotw mt-5">
+    <div class="row">
+
+      <!-- content text -->
+      <div class="col-lg-2 mr-xl-5"></div>
+      <div class="col-12 col-lg-6 ml-xl-4 aotw-text d-flex pt-5 pb-5 pl-5 pl-lg-0">
+        <p class="text-danger mt-4">ART OF THE WEEK</p>
+        <h3 class=" text-uppercase">Dua Lipa Vector</h3>
+        <p class="discounted "> <del class="mr-3 text-muted">₱1,540</del> <span class="">₱1,232</span></p>
+        <span class="badge badge-danger bg-danger p-3 mb-3">20% off</span>
+        <a href="#" class="btn btn-outline-dark shop-now mb-3 zoom" data-toggle="modal" data-target="#ArtOfTheWeek">BUY NOW</a>
+      </div>
+
+      <!-- img -->
+      <div class="col-9 position-absolute aotw-img">
+        <img src="img/aotw.png" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container my-5 py-3 history" id="about">
+    <h5>OUR HISTORY</h5>
+    <P class=" text-muted mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo quia velit illum saepe autem quasi itaque nobis error quisquam laborum?</P>
+    <p class="mt-3 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, dolorum. Praesentium enim asperiores repellat vel, repudiandae nisi quia voluptatibus quos sequi voluptates ab hic. Excepturi, aliquam soluta. Officia, soluta deleniti.</p>
+  </div>
+
+  <!-- footer -->
+  <footer class="mb-5">
+    <div class="footer-bg ">
+      <div class="container-md">
+        <div class="row py-sm-5 py-4">
+          <!-- service 1 -->
+          <div class="col-lg-3 col-sm-6 service py-4 d-flex align-items-center free-shipping">
+            <i class="fa-solid fa-truck-fast fa-2x pr-3 ml-md-0 ml-sm-5 mr-3 mx-sm-0"></i>
+            <div class="service-text">
+              <h6 class="m-0">Free shipping & return</h6>
+              <p class=" text-muted mb-0"> 
+                Free shipping over ₱1,000
+              </p>
+            </div>
+          </div>
+  
+          <!-- service 2 -->
+          <div class="col-lg-3 col-sm-6 d-flex align-items-center service py-4">
+            <i class="fa-solid fa-hand-holding-dollar fa-2x pr-3 mr-3 mx-sm-0"></i>
+            <div class="service-text ">
+              <h6 class="m-0">Money back guarantee</h6>
+              <p class=" text-muted mb-0"> 
+                30 Days Money Back Guarantee
+              </p>
+            </div>
+          </div>
+  
+          <!-- service 3 -->
+          <div class="col-lg-3 col-sm-6 d-flex align-items-center service py-4 best-price">
+            <i class="fa-solid fa-money-bill-1-wave fa-2x pr-3 ml-md-0 ml-sm-5 mr-3 mx-sm-0"></i>
+            <div class="service-text">
+              <h6 class="m-0">Best Prices</h6>
+              <p class=" text-muted mb-0"> 
+                Always the best prices
+              </p>
+            </div>
+          </div>
+  
+          <!-- service 4 -->
+          <div class="col-lg-3 col-sm-6 d-flex align-items-center service py-4">
+            <i class="fa-solid fa-headset fa-2x pr-3 mr-3 mx-sm-0"></i>
+            <div class="service-text">
+              <h6 class="m-0">09123456789</h6>
+              <p class=" text-muted mb-0"> 
+                24/7 Available Support
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-md pt-5 footer-list">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0 pl-sm-5 pl-md-0 footer-brand">
+          <h6 class="mb-3">Beau Art</h6>
+          <p class=" text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi corporis ex labore culpa consectetur hic dolor. Nobis iusto natus velit.</p>
+        </div>
+        <div class="col-lg-2 col-sm-6 mb-5 mb-lg-0">
+          <h6 class="mb-3">SHOP</h6>
+          <ul class="list-unstyled">
+            <li><a href="" class=" text-muted">Digital Art</a></li>
+            <li><a href="" class=" text-muted">Traditional Art</a></li>
+            <li><a href="" class=" text-muted">Shop</a></li>
+            <li><a href="" class=" text-muted">Our Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-6 mb-5 mb-lg-0 pl-sm-5 pl-md-0">
+          <h6 class="mb-3">COMPANY</h6>
+          <ul class="list-unstyled">
+            <li><a href="" class=" text-muted">Login</a></li>
+            <li><a href="" class=" text-muted">Register</a></li>
+            <li><a href="" class=" text-muted">Wishlist</a></li>
+            <li><a href="" class=" text-muted">Checkouts</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-sm-6  mb-5 mb-lg-0">
+          <h6 class="mb-3">BE IN TOUCH</h6>
+          <p class="mb-3 text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos aliquid maiores aperiam facere temporibus veritatis!</p>
+          <div class="input-group-underlined input-group beInTouch">
+            <input type="email" placeholder="Your Email Address" aria-label="Your Email Address" class="form-control-underlined form-control border-bottom">
+            <button class="btn border-bottom"><i class="fa-solid fa-paper-plane"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container my-3">
+      <div class="row ">
+        <div class="col-md-6 pl-0 copyright">
+          <p class=" text-muted text-center text-md-left m-0">© 2020 Beau Art.  All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-center socmed">
+          <a href="#"><i class="fa-brands mr-2 fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands mr-2 fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands mr-2 fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands mr-2 fa-pinterest-p"></i></a>
+          <a href="#"><i class="fa-brands mr-2 fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+  <script type="text/javascript" src=" js/jquery.js"></script>
+  <script type="text/javascript" src=" js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+</html>
