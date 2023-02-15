@@ -32,6 +32,10 @@ html {
   -o-transition: all 0.5s ease-in-out;
 }
 
+.cart {
+  color: rgba(56, 56, 56, 0.9137254902);
+}
+
 nav {
   overflow-x: hidden !important;
   position: absolute !important;
@@ -256,6 +260,10 @@ input {
   color: rgba(109, 109, 109, 0.7725490196);
 }
 
+.fa-fire {
+  color: rgb(247, 121, 87);
+}
+
 .items {
   margin-left: 8vw;
   margin-right: 8vw;
@@ -265,6 +273,13 @@ input {
   font-size: 0.9rem !important;
   font-weight: 600 !important;
   color: rgba(20, 20, 20, 0.4509803922) !important;
+}
+.items .zoom img {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 .items .all-prod a:hover {
   color: #e7a17d !important;
@@ -425,7 +440,12 @@ input {
   gap: 1.5rem;
 }
 .modal-body .modal-btn button {
+  border-radius: 10px;
   width: 50%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .close-btn {

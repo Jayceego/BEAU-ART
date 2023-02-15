@@ -39,6 +39,9 @@ html{
   -ms-transition: all .5s ease-in-out;
   -o-transition: all .5s ease-in-out;
 }
+.cart{
+  color: $dark;
+}
 nav{
   overflow-x: hidden !important;
   position: absolute !important;
@@ -295,7 +298,9 @@ input{
 }
 
 // Product Items
-
+.fa-fire{
+  color: rgb(247, 121, 87);
+}
 .items{
   margin-left: 8vw;
   margin-right: 8vw;
@@ -304,6 +309,15 @@ input{
     font-size: .9rem !important;
     font-weight: 600 !important;
     color: #14141473 !important;
+  }
+  .zoom{
+    img{
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+}
   }
 
   .all-prod a:hover{
@@ -484,8 +498,13 @@ input{
     width: 100%;
     gap: 1.5rem;
     button{
+      border-radius: 10px;
       width: calc(100%/2);
-    }
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+}
   }
 }
 .close-btn{
