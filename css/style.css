@@ -169,6 +169,14 @@ input {
 .hero {
   z-index: 5 !important;
 }
+.hero .h1 h1:nth-child(1) {
+  font-size: clamp(2rem, 10vw, 3rem);
+}
+.hero .h1 h1:nth-child(2) {
+  color: burlywood;
+  font-weight: bold;
+  font-size: clamp(2rem, 10vw, 5rem);
+}
 .hero img {
   width: clamp(150px, 100%, 1000px);
 }

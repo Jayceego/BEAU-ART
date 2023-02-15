@@ -88,9 +88,12 @@
   <div class="container-lg hero mt-5 p-0">
     <div class="row text-right mx-1 pt-md-5">
       <div class="col-md-6 get-started align-self-center text-left">
-        <h1>Art Market for all your Preference
-        </h1>
-        <p>A diverse world of art where you may buy and sell a range of different types of artworks, whether physical or digital.</p>
+        <p class="mb-0">Welcome, Artist/s!</p>
+        <div class="h1">
+          <h1>We love to see your</h1>
+          <h1><span class="multiText"></span></h1>
+        </div>
+        <p>This is a diverse world of photography where you can submit and compete with a range of different types of photos, whether captured digitally or on film.</p>
 
         <a class="btn btn-outline-dark explore" href="#product">
           EXPLORE
@@ -763,7 +766,7 @@
     </div>
   </footer>
 
-
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
   <script type="text/javascript" src=" js/jquery.js"></script>
   <script type="text/javascript" src=" js/bootstrap.bundle.min.js"></script>
@@ -771,6 +774,16 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
+  </script>
+  <script>
+    var texts = new Typed(".multiText", {
+      strings : ["Capture", "Passion", "Imagination", "Story" ],
+      loop : true,
+      typeSpeed : 100,
+      backSpeed : 80,
+      backDelay : 1500
+
+    })
   </script>
 </body>
 </html>
