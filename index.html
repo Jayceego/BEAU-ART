@@ -54,7 +54,7 @@
 
             <div class="col-4 d-flex justify-content-center">
               <a href="html/checkout.html" class="cart position-relative">
-                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-heart"></i>
               </a>
             </div>
             <div class="col-4 d-flex justify-content-center">
@@ -64,8 +64,8 @@
     </div>
   </nav>
 
+  <!-- search -->
   <div class="right-side d-none d-md-flex">
-    <!-- search -->
     <form class="form-inline position-relative">
       <a class="btn my-sm-0 " type="submit">
         <i class="fa-solid fa-magnifying-glass"></i>
@@ -76,7 +76,7 @@
     </form>
 
       <a href="html/checkout.html" class="mr-3 mt-3 pt-1 cart">
-        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-solid fa-heart"></i>
       </a> 
     <button data-toggle="modal" data-target="#login" class="zomm mr-md-5 mr-3 my-3 btn btn-outline-dark login">LOGIN</button>
   </div>
@@ -431,7 +431,7 @@
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content">
       <div class="modal-header close-btn position-absolute border-0">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close pr-1" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -446,7 +446,7 @@
           <div class="col-lg-6 p-0 ">
 
               <!-- art name -->
-              <h1 class="pt-3 mb-0">Art Name</h1>
+              <h2 class="pt-3 mb-1">Art Name</h2>
 
               <!-- Artist profile -->
               <div class="artist-profile d-flex text-left align-items-center pb-3">
@@ -454,16 +454,14 @@
                 <p class="m-0 mr-auto"><a href="#" class="name">Artist Name</a></p>
               </div>
                 <!-- price and rating -->
-                <div class="d-flex flex-column flex-sm-row align-items-sm-center justify-content-sm-between mb-4">
-                  <p class=" h4">₱1,540</p>
+                <div class="d-flex flex-row align-items-center justify-content-between mb-4">
+                  <div class="d-flex align-items-center text-sm stars">
+                    <span class=" text-uppercase pl-1 mr-1" >413</span>
+                    <i style="color: rgb(247, 121, 87);" class="fa-solid fa-fire"></i>
+                  </div>
                     <div class="d-flex align-items-center text-sm stars">
-                      <i style="color: burlywood;" class="fa-solid fa-star fa-sm"></i>
-                      <i style="color: burlywood;" class="fa-solid fa-star fa-sm"></i>
-                      <i style="color: burlywood;" class="fa-solid fa-star fa-sm"></i>
-                      <i style="color: burlywood;" class="fa-solid fa-star fa-sm"></i>
-                      <i style="color: burlywood;" class="fa-solid fa-star-half-stroke fa-sm"></i>
-                      <!-- <img style="width: 15px; padding-bottom: 2.2px;" src="https://img.icons8.com/metro/26/000000/star.png"/> -->
-                      <span class=" text-muted text-uppercase pl-1" > 35 reviews</span>
+                      <span class=" text-uppercase pl-1 mr-1" >413</span>
+                      <i style="color: rgb(247, 121, 87);" class="fa-solid fa-fire"></i>
                     </div>
                 </div>
 
@@ -546,7 +544,7 @@
           </div>
 
           <!-- content -->
-          <div class="col-lg-6 p-0  pr-5">
+          <div class="col-lg-6 p-0 ">
 
               <!-- art name -->
               <h1 class="pt-3 mb-0">Art Name</h1>
@@ -579,7 +577,7 @@
               <form action="">
                 <div class="row cat_tags">
                   <!-- Category -->
-                  <div class="col-sm-6">
+                  <div class="col-6">
                     <h6 class="m-0">Category:</h6>
                       <a href="#">
                         Digital
@@ -587,26 +585,30 @@
                   </div>
 
                   <!-- Tags -->
-                  <div class=" col-sm-6">
+                  <div class=" col-6">
                     <h6 class="m-0">Tags:</h6>
                       <a href="#">
-                        Pastel,
+                        Aesthetic,
                       </a>
                       <a href="">
                         Elegant
                       </a>
                   </div>
                 </div>
-                <div class=" input-group my-3">
-                  <input name="items" type="number" class="text-right form-control form-control-lg" value="1">
-                  <button type="button" class="checkout flex-grow-1 btn btn-dark">UPVOTE</button>
+                <div class="my-3 modal-btn">
+                  <button type="button" class="checkout flex-grow-1 btn btn-dark">UPVOTE
+                    <i style="color: rgb(247, 121, 87);" class="ml-1 fa-solid fa-fire"></i>
+                  </button>
+                  <button type="button" class="checkout flex-grow-1 btn btn-dark">DOWNVOTE
+                    <i style="color: rgb(82, 87, 196);" class="ml-1 fa-solid fa-thumbs-down"></i>
+                  </button>
                 </div>
                 
                 <!-- Modal Footer -->
                 <div class="row d-flex justify-content-between modalFooter">
-                  <div class="col-6 d-flex align-items-center">
-                    <a href="" class="d-flex align-items-center" >
-                      <i style="color: burlywood;"  class="fa-solid fa-heart"></i>
+                  <div class="col-6">
+                    <a href="" class="d-flex align-items-center">
+                      <i style="color: burlywood;" class="fa-solid fa-heart"></i>
                       <p style="color: burlywood;" class="m-0 pl-2">Add to favorite</p>
                     </a>
                   </div>

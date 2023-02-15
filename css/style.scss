@@ -5,25 +5,6 @@ $dark : #383838e9;
 $lightBrown : #d9cecc;
 $neutral : #c7ab9d;
 
-
-// light mode
-p, h1, h2, h3, a{
-  color: $dark !important;
-}
-.close-btn, nav{
-  button{
-    color: black !important;
-    background-color: transparent !important ;
-  }
-}
-button{
-  color: white !important;
-  background-color: $dark !important;
-}
-a:hover{
-  color: white !important;
-}
-// ----------------------LIGHT MODE----------------------------
 *{
   margin: 0;
   padding: 0;
@@ -490,6 +471,7 @@ input{
     overflow: hidden;
     display: flex;
     align-items: center;
+    padding: 0 !important;
 
     img{
       width: 100%;
