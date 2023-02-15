@@ -413,7 +413,7 @@ input {
   overflow: hidden;
   display: flex;
   align-items: center;
-  padding: 0 !important;
+  padding: 0;
 }
 .modal-body .modalArt img {
   width: 100%;
@@ -496,26 +496,22 @@ form .fa-star-half-stroke, form .fa-star {
 
 .aotw {
   background-color: #fff0f0;
-  -o-object-fit: cover;
-     object-fit: cover;
   overflow: hidden;
   width: 100vw;
 }
 .aotw .aotw-img {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: end;
-  bottom: -100px;
+  padding: 0 !important;
+  width: 100vw !important;
 }
 .aotw .aotw-img img {
-  transform: scale(120%);
-  -webkit-transform: scale(120%);
-  -moz-transform: scale(120%);
-  -ms-transform: scale(120%);
-  -o-transform: scale(120%);
+  height: 400px;
+  width: 100vw;
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
 }
 .aotw .aotw-text {
+  width: -moz-max-content !important;
+  width: max-content !important;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -633,7 +629,8 @@ form .fa-star-half-stroke, form .fa-star {
     -o-transition: all 0.5s ease-in-out !important;
   }
   .aotw-text {
-    background-image: linear-gradient(top left, rgba(255, 255, 255, 0.726) 30%, rgba(255, 255, 255, 0));
+    background: rgb(255, 255, 255);
+    background: linear-gradient(52deg, rgb(255, 255, 255) 0%, rgba(252, 169, 0, 0) 90%);
   }
 }
 .socmed {
