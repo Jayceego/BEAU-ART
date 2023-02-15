@@ -1,4 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Italiana&family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+p, h1, h2, h3, a {
+  color: rgba(56, 56, 56, 0.9137254902) !important;
+}
+
+.close-btn button, nav button {
+  color: black !important;
+  background-color: transparent !important;
+}
+
+button {
+  color: white !important;
+  background-color: rgba(56, 56, 56, 0.9137254902) !important;
+}
+
+a:hover {
+  color: white !important;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -417,6 +435,14 @@ input {
 .modal-body .modalArt img {
   width: 100%;
   height: auto;
+}
+.modal-body .modal-btn {
+  display: flex;
+  width: 100%;
+  gap: 1.5rem;
+}
+.modal-body .modal-btn button {
+  width: 50%;
 }
 
 .close-btn {
