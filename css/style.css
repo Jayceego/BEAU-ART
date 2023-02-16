@@ -278,18 +278,20 @@ input {
 }
 
 .swiper {
-  width: 100vw;
-  height: 30vh;
+  width: 100%;
+}
+.swiper .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: clamp(150px, 100vw - 100px, 300px);
+  height: auto;
 }
 .swiper .swiper-slide img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  display: block;
+  width: 100%;
 }
-.swiper .swiper-pagination {
-  height: 1rem;
-  width: 100vw;
+.swiper .swiper-slide img::before {
+  content: "ahaudhas";
 }
 
 .fa-fire {

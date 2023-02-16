@@ -5,6 +5,7 @@ $dark : #383838e9;
 $lightBrown : #d9cecc;
 $neutral : #c7ab9d;
 
+
 *{
   margin: 0;
   padding: 0;
@@ -314,21 +315,23 @@ input{
 }
 // RANKING
 .swiper{
-  width: 100vw;
-  height: 30vh;
-  .swiper-slide{
-    img{
-      object-fit: cover;
-      object-position: center;
+  width: 100%;
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: clamp(150px, 100vw - 100px, 300px);
+    height: auto;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+    img::before{
+      content: "ahaudhas";
     }
   }
-  
-  .swiper-pagination{
-    height: 1rem;
-    width: 100vw;
-  }
 }
-
 
 
 // Product Items
