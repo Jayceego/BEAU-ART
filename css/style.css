@@ -281,6 +281,7 @@ input {
   width: 100%;
 }
 .swiper .swiper-slide {
+  position: relative;
   background-position: center;
   background-size: cover;
   width: clamp(150px, 100vw - 100px, 300px);
@@ -290,8 +291,17 @@ input {
   display: block;
   width: 100%;
 }
-.swiper .swiper-slide img::before {
-  content: "ahaudhas";
+.swiper .top1 {
+  background-color: #ffd700;
+}
+.swiper .top2 {
+  background-color: #c0c0c0;
+}
+.swiper .top3 {
+  background-color: #cd7f32;
+}
+.swiper .top-below {
+  background-color: rgba(158, 158, 158, 0.731);
 }
 
 .fa-fire {

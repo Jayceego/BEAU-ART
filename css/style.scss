@@ -4,7 +4,9 @@ $light : #c6c3be;
 $dark : #383838e9;
 $lightBrown : #d9cecc;
 $neutral : #c7ab9d;
-
+$gold : #ffd700;
+$silver : #c0c0c0;
+$bronze : #cd7f32;
 
 *{
   margin: 0;
@@ -318,6 +320,7 @@ input{
   width: 100%;
   
   .swiper-slide {
+    position: relative;
     background-position: center;
     background-size: cover;
     width: clamp(150px, 100vw - 100px, 300px);
@@ -327,9 +330,18 @@ input{
       display: block;
       width: 100%;
     }
-    img::before{
-      content: "ahaudhas";
-    }
+  }
+  .top1{
+    background-color: $gold;
+  }
+  .top2{
+    background-color: $silver;
+  }
+  .top3{
+    background-color: $bronze;
+  }
+  .top-below{
+    background-color: rgba(158, 158, 158, 0.731);
   }
 }
 
