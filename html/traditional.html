@@ -14,96 +14,94 @@
 <body>
   <!-- brand -->
   <div class="brand pt-md-2">
-    <a class="navbar-brand" href="#">Beau Art</a>
+    <a class="navbar-brand" href="index.html">Beau Art</a>
   </div>
 
-  <!-- menu -->
-  <nav class="navbar navbar-expand- navbar-light mx-lg-5 mt-2 ">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item ml-3 active">
-          <a class="nav-link" href="../index.html">Home</a>
-        </li>
-        <li class="nav-item ml-3">
-          <a class="nav-link" href="../index.html">About</a>
-        </li>
-        <li class="nav-item ml-3">
-          <a class="nav-link" href="digital.html">Digital</a>
-        </li>
-        <li class="nav-item ml-3">
-          <a class="nav-link" href="traditional.html">Traditional</a>
-        </li>
-        <li class="nav-item ml-3">
-          <a class="nav-link" href="product.html">Product</a>
-        </li>
-      </ul>
-
-      <!-- icons nav -->
-      <div class="icons-nav d-flex d-md-none row">
-        <!-- search -->
-        <div class="col-4 d-flex justify-content-start">
-          <form class="form-inline position-relative p-0">
-            <input class="form-control m-0" type="search" placeholder=" type to search.." aria-label="Search">
-            <a class="btn my-sm-0 p-0" type="submit">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </a>
-          </form>
-        </div>
-
-        <div class="col-4 d-flex justify-content-center">
-          <a href="checkout.html" class="cart position-relative">
-            <i class="fa-solid fa-cart-shopping"></i>
-          </a>
-        </div>
-        <div class="col-4 d-flex justify-content-center">
-          <a href="#"><i class="fa-solid fa-user"></i></a>
+  <!-- navbar -->
+  <nav class="navbar navbar-light mx-lg-5 mt-2 ">
+    <div class="fixed-top navbar-sticky">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ml-3 active">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item ml-3">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item ml-3">
+            <a class="nav-link" href="digital.html">Digital</a>
+          </li>
+          <li class="nav-item ml-3">
+            <a class="nav-link" href="traditional.html">Traditional</a>
+          </li>
+          <li class="nav-item ml-3">
+            <a class="nav-link" href="#product">Photos</a>
+          </li>
+        </ul>
+        <!-- icons nav -->
+        <div class="icons-nav d-flex d-md-none row">
+              <!-- search -->
+              <div class="col-4 d-flex justify-content-start">
+                <form class="form-inline position-relative p-0">
+                  <input class="form-control m-0" type="search" placeholder=" type to search.." aria-label="Search">
+                  <a class="btn my-sm-0 p-0" type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </a>
+                </form>
+              </div>
+  
+              <div class="col-4 d-flex justify-content-center">
+                <a href="html/checkout.html" class="cart position-relative">
+                  <i class="fa-solid fa-heart"></i>
+                </a>
+              </div>
+              <div class="col-4 d-flex justify-content-center">
+                <a href="#"><i class="fa-solid fa-user"></i></a>
+              </div>
         </div>
       </div>
     </div>
   </nav>
-
+  <!-- search -->
   <div class="right-side d-none d-md-flex">
-    <!-- search -->
     <form class="form-inline position-relative">
       <a class="btn my-sm-0 " type="submit">
         <i class="fa-solid fa-magnifying-glass"></i>
       </a>
 
       <input class="form-control mr-3" type="search" placeholder=" type to search.." aria-label="Search">
-
+      
     </form>
 
-    <a href="checkout.html" class="mr-3 mt-3 pt-1 cart">
-      <i class="fa-solid fa-cart-shopping"></i>
-    </a>
-    <button data-toggle="modal" data-target="#login"
-      class="zomm mr-md-5 mr-3 my-3 btn btn-outline-dark login">LOGIN</button>
+      <a href="html/checkout.html" class="mr-3 mt-3 pt-1 cart">
+        <i class="fa-solid fa-heart"></i>
+      </a> 
+    <button data-toggle="modal" data-target="#login" class="zomm mr-md-5 mr-3 my-3 btn btn-outline-dark login">LOGIN</button>
   </div>
 
 
-  <!-- new arrivals -->
+  <!-- Toggle -->
   <div class="arrival container " id="product">
     <h1 class="new-arrivals my-5" style="font-family: poppins;">TRADITIONAL ART</h1>
   </div>
 
-  <div class="items mt-5  mb-2 ">
-    <ul class="nav flex-row mb-2">
-      <div class="nav flex-row d-flex justify-content-center mx-auto mx-md-0">
-        <li class="nav-item top">
-          <a class="nav-link pr-0 pl-0" href="product.html">Product <span class="pl-1"> / </span></a>
+    <div class="items my-3 mb-2 ">
+      <ul class="nav flex-row mb-2">
+        <div class="nav flex-row d-flex justify-content-center mx-auto mx-md-0">
+          <li class="nav-item top">
+            <a class="nav-link pr-0 pl-0" href="product.html">Product <span class="pl-1"> / </span></a>
+          </li>
+          <li class="nav-item text-center trad">
+            <a class="nav-link pr-0 pl-2" style="cursor:default;">Traditional</a>
+          </li>
+        </div>
+        <li class="nav-item col-12 col-md-auto ml-auto all-prod pr-0">
+          <a class="nav-link pr-0" href="product.html">All Product</a>
         </li>
-        <li class="nav-item text-center trad">
-          <a class="nav-link pr-0 pl-2" style="cursor:default;">Traditional</a>
-        </li>
-      </div>
-      <li class="nav-item col-12 col-md-auto ml-auto all-prod pr-0">
-        <a class="nav-link pr-0" href="product.html">All Product</a>
-      </li>
-    </ul>
+      </ul>
 
     <!-- Product -->
     <!-- layer 1 -->
@@ -111,26 +109,21 @@
       <!-- 1 -->
       <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
         <!-- artwork -->
-        <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
-          <img class="" src="../img/art.jpg" alt="">
+        <a data-toggle="modal" class="zoom" data-target="#staticBackdrop">
+          <img src="https://images.unsplash.com/photo-1597346652979-7a3db5012809?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=693&q=80" alt="">
         </a>
         <!-- Artist name -->
         <div class="sub-text justify-content-end align-items-center mt-1 py-1 py-md-2 px-1">
-          <a href="" class="mr-1 profile"> <img src="../img/profile.png" alt=""></a>
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
           <a href="" class="m-0 mr-auto name">Name</a>
-          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
-          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png" /></a>
+          <div href="#" class="mr-lg-4"><i class="fa-solid fa-heart fa-lg"></i></div>
         </div>
 
         <!-- art description -->
-        <a href="">
-          <p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p>
-        </a>
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
         <div class="price d-flex justify-content-end px-1">
-          <a href="" class="mr-auto text-muted">
-            <p><strong>₱1,540</strong></p>
-          </a>
-          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+          <a href="" class="mr-auto text-muted"><p>Votes</p></a>
+          <p>324<i class="fa-solid fa-fire ml-1"></i></p>
         </div>
       </div>
 
@@ -138,130 +131,104 @@
       <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
         <!-- artwork -->
         <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
-          <img class="" src="../img/art1.png" alt="">
+          <img class="" src="https://images.unsplash.com/photo-1604153633154-425ebb777e11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=693&q=80" alt="">
         </a>
         <!-- Artist name -->
         <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
-          <a href="" class="mr-1 profile"> <img src="../img/profile.png" alt=""></a>
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
           <a href="" class="m-0 mr-auto name">Name</a>
-          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
-          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png" /></a>
+          <div class="mr-lg-4"><i class="fa-solid fa-heart fa-lg"></i></div>
         </div>
 
         <!-- art description -->
-        <a href="">
-          <p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p>
-        </a>
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
         <div class="price d-flex justify-content-end px-1">
-          <a href="" class="mr-auto text-muted">
-            <p><strong>₱1,540</strong></p>
-          </a>
-          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+          <a href="" class="mr-auto text-muted"><p>Votes</p></a>
+          <p>324<i class="fa-solid fa-fire ml-1"></i></p>
         </div>
       </div>
 
       <!-- 3 -->
       <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
         <!-- artwork -->
-        <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
-          <img class="" src="../img/art14.png" alt="">
+        <a href="" class="zoom" data-toggle="modal" data-target="#ArtOfTheWeek">
+          <img class="" src="https://images.unsplash.com/photo-1581265463006-f019c3419709?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80" alt="">
         </a>
         <!-- Artist name -->
         <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
-          <a href="" class="mr-1 profile"> <img src="../img/profile.png" alt=""></a>
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
           <a href="" class="m-0 mr-auto name">Name</a>
-          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
-          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png" /></a>
+          <div href="#" class="mr-lg-4"><i class="fa-solid fa-heart fa-lg"></i></div>
         </div>
 
         <!-- art description -->
-        <a href="">
-          <p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p>
-        </a>
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
         <div class="price d-flex justify-content-end px-1">
-          <a href="" class="mr-auto text-muted">
-            <p><strong>₱1,540</strong></p>
-          </a>
-          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+          <a href="" class="mr-auto text-muted"><p>Votes</p></a>
+          <p>324<i class="fa-solid fa-fire ml-1"></i></p>
         </div>
       </div>
-
+      
       <!-- 4 -->
       <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
         <!-- artwork -->
         <a href="" class="zoom" data-toggle="modal" data-target="#ArtOfTheWeek">
-          <span class="badge badge-danger position-absolute ml-2 mt-2">SALE</span>
-          <img class="" src="../img/art4.png" alt="">
+          <img class="" src="https://images.unsplash.com/photo-1620304911455-7ed5454e5ecd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGZpbG0lMjBwaG90b3N8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" alt="">
         </a>
         <!-- Artist name -->
         <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
-          <a href="" class="mr-1 profile"> <img src="../img/profile.png" alt=""></a>
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
           <a href="" class="m-0 mr-auto name">Name</a>
-          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
-          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png" /></a>
+          <div href="#" class="mr-lg-4"><i class="fa-solid fa-heart fa-lg"></i></div>
         </div>
 
         <!-- art description -->
-        <a href="">
-          <p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p>
-        </a>
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
         <div class="price d-flex justify-content-end px-1">
-          <a href="" class="mr-auto text-muted">
-            <p><strong>₱1,540</strong></p>
-          </a>
-          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+          <a href="" class="mr-auto text-muted"><p>Votes</p></a>
+          <p>324<i class="fa-solid fa-fire ml-1"></i></p>
         </div>
       </div>
 
-      <!-- 2 -->
+      <!-- 5 -->
       <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
         <!-- artwork -->
         <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
-          <img class="" src="../img/art5.png" alt="">
+          <img class="" src="https://images.unsplash.com/photo-1569830413161-56fbb7b5df77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="">
         </a>
         <!-- Artist name -->
         <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
-          <a href="" class="mr-1 profile"> <img src="../img/profile.png" alt=""></a>
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
           <a href="" class="m-0 mr-auto name">Name</a>
-          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
-          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png" /></a>
+          <div href="#" class="mr-lg-4"><i class="fa-solid fa-heart fa-lg"></i></div>
         </div>
 
         <!-- art description -->
-        <a href="">
-          <p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p>
-        </a>
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
         <div class="price d-flex justify-content-end px-1">
-          <a href="" class="mr-auto text-muted">
-            <p><strong>₱1,540</strong></p>
-          </a>
-          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+          <a href="" class="mr-auto text-muted"><p>Votes</p></a>
+          <p>324<i class="fa-solid fa-fire ml-1"></i></p>
         </div>
       </div>
 
-      <!-- 3 -->
+      <!-- 6 -->
       <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
         <!-- artwork -->
         <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
-          <img class="" src="../img/art15.png" alt="">
+          <img class="" src="https://images.unsplash.com/photo-1574618595355-b239dec0ca8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZpbG0lMjBwaG90b3N8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" alt="">
         </a>
         <!-- Artist name -->
         <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
-          <a href="" class="mr-1 profile"> <img src="../img/profile.png" alt=""></a>
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
           <a href="" class="m-0 mr-auto name">Name</a>
-          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
-          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png" /></a>
+          <div href="#" class="mr-lg-4"><i class="fa-solid fa-heart fa-lg"></i></div>
         </div>
 
         <!-- art description -->
-        <a href="">
-          <p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p>
-        </a>
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
         <div class="price d-flex justify-content-end px-1">
-          <a href="" class="mr-auto text-muted">
-            <p><strong>₱1,540</strong></p>
-          </a>
-          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+          <a href="" class="mr-auto text-muted"><p>Votes</p></a>
+          <p>324<i class="fa-solid fa-fire ml-1"></i></p>
         </div>
       </div>
     </div>
@@ -272,25 +239,20 @@
       <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
         <!-- artwork -->
         <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
-          <img class="" src="../img/art7.png" alt="">
+          <img class="" src="https://images.unsplash.com/photo-1603118258727-c20d28b28bea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGZpbG0lMjBwaG90b2dyYXBoeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="">
         </a>
         <!-- Artist name -->
         <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
-          <a href="" class="mr-1 profile"> <img src="../img/profile.png" alt=""></a>
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
           <a href="" class="m-0 mr-auto name">Name</a>
-          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
-          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png" /></a>
+          <div href="#" class="mr-lg-4"><i class="fa-solid fa-heart fa-lg"></i></div>
         </div>
 
         <!-- art description -->
-        <a href="">
-          <p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p>
-        </a>
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
         <div class="price d-flex justify-content-end px-1">
-          <a href="" class="mr-auto text-muted">
-            <p><strong>₱1,540</strong></p>
-          </a>
-          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+          <a href="" class="mr-auto text-muted"><p>Votes</p></a>
+          <p>324<i class="fa-solid fa-fire ml-1"></i></p>
         </div>
       </div>
 
@@ -298,135 +260,108 @@
       <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
         <!-- artwork -->
         <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
-          <img class="" src="../img/art8.png" alt="">
+          <img class="" src="https://images.unsplash.com/photo-1592912487122-4a2c0b82e107?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGZpbG0lMjBwaG90b3N8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" alt="">
         </a>
         <!-- Artist name -->
         <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
-          <a href="" class="mr-1 profile"> <img src="../img/profile.png" alt=""></a>
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
           <a href="" class="m-0 mr-auto name">Name</a>
-          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
-          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png" /></a>
+          <div href="#" class="mr-lg-4"><i class="fa-solid fa-heart fa-lg"></i></div>
         </div>
 
         <!-- art description -->
-        <a href="">
-          <p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p>
-        </a>
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
         <div class="price d-flex justify-content-end px-1">
-          <a href="" class="mr-auto text-muted">
-            <p><strong>₱1,540</strong></p>
-          </a>
-          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+          <a href="" class="mr-auto text-muted"><p>Votes</p></a>
+          <p>324<i class="fa-solid fa-fire ml-1"></i></p>
         </div>
       </div>
 
       <!-- 3 -->
       <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
         <!-- artwork -->
-        <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
-          <img class="" src="../img/art16.png" alt="">
+        <a href="" class="zoom" data-toggle="modal" data-target="#POTW">
+          <img class="" src="https://images.unsplash.com/photo-1564298301619-bfc6aa011ad5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=671&q=80" alt="">
         </a>
         <!-- Artist name -->
         <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
-          <a href="" class="mr-1 profile"> <img src="../img/profile.png" alt=""></a>
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
           <a href="" class="m-0 mr-auto name">Name</a>
-          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
-          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png" /></a>
+          <div href="#" class="mr-lg-4"><i class="fa-solid fa-heart fa-lg"></i></div>
         </div>
 
         <!-- art description -->
-        <a href="">
-          <p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p>
-        </a>
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
         <div class="price d-flex justify-content-end px-1">
-          <a href="" class="mr-auto text-muted">
-            <p><strong>₱1,540</strong></p>
-          </a>
-          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+          <a href="" class="mr-auto text-muted"><p>Votes</p></a>
+          <p>324<i class="fa-solid fa-fire ml-1"></i></p>
         </div>
       </div>
-
-      <!-- 1 -->
+      
+      <!-- 4 -->
       <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
         <!-- artwork -->
         <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
-          <img class="" src="../img/art10.png" alt="">
+          <img class="" src="https://images.unsplash.com/photo-1554496397-0370e3b9dc30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGZpbG0lMjBwaG90b3N8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" alt="">
         </a>
         <!-- Artist name -->
         <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
-          <a href="" class="mr-1 profile"> <img src="../img/profile.png" alt=""></a>
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
           <a href="" class="m-0 mr-auto name">Name</a>
-          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
-          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png" /></a>
+          <div href="#" class="mr-lg-4"><i class="fa-solid fa-heart fa-lg"></i></div>
         </div>
 
         <!-- art description -->
-        <a href="">
-          <p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p>
-        </a>
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
         <div class="price d-flex justify-content-end px-1">
-          <a href="" class="mr-auto text-muted">
-            <p><strong>₱1,540</strong></p>
-          </a>
-          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+          <a href="" class="mr-auto text-muted"><p>Votes</p></a>
+          <p>324<i class="fa-solid fa-fire ml-1"></i></p>
         </div>
       </div>
 
-      <!-- 2 -->
+      <!-- 5 -->
       <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
         <!-- artwork -->
         <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
-          <img class="" src="../img/art13.png" alt="">
+          <img class="" src="https://images.unsplash.com/photo-1561181444-2e1afcf39afb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njd8fGZpbG0lMjBwaG90b2dyYXBoeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="">
         </a>
         <!-- Artist name -->
         <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
-          <a href="" class="mr-1 profile"> <img src="../img/profile.png" alt=""></a>
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
           <a href="" class="m-0 mr-auto name">Name</a>
-          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
-          <a href="" class="zoom"><img src="https://img.icons8.com/ios/24/000000/expand--v1.png" /></a>
+          <div href="#" class="mr-lg-4"><i class="fa-solid fa-heart fa-lg"></i></div>
         </div>
 
         <!-- art description -->
-        <a href="">
-          <p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p>
-        </a>
+        <a href=""><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
         <div class="price d-flex justify-content-end px-1">
-          <a href="" class="mr-auto text-muted">
-            <p><strong>₱1,540</strong></p>
-          </a>
-          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+          <a href="" class="mr-auto text-muted"><p>Votes</p></a>
+          <p>324<i class="fa-solid fa-fire ml-1"></i></p>
         </div>
       </div>
 
-      <!-- 3 -->
+      <!-- 6 -->
       <div class="col-6 col-sm-4 col-lg-2 art-img p-0 px-2 position-relative">
         <!-- artwork -->
         <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop">
-          <img class="" src="../img/art.png" alt="">
+          <img class="" src="https://images.unsplash.com/photo-1555437525-53f456b231ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGZpbG0lMjBwaG90b3N8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" alt="">
         </a>
         <!-- Artist name -->
         <div class="sub-text justify-content-end align-items-center mt-1 py-1 px-1 py-md-2">
-          <a href="" class="mr-1 profile"> <img src="../img/profile.png" alt=""></a>
+          <a href="" class="mr-1 profile"> <img src="img/profile.png" alt=""></a>
           <a href="" class="m-0 mr-auto name">Name</a>
-          <a href="#" class="mr-1"><i class="fa-solid fa-heart fa-lg"></i></a>
-          <a href="" class="zoom" data-toggle="modal" data-target="#staticBackdrop"><img
-              src="https://img.icons8.com/ios/24/000000/expand--v1.png" /></a>
+          <div href="#" class="mr-lg-4"><i class="fa-solid fa-heart fa-lg"></i></div>
         </div>
 
         <!-- art description -->
-        <a href="">
-          <p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p>
-        </a>
+        <a href="" ><p class="mr-auto mb-0 px-1"><strong>Art Name</strong></p></a>
         <div class="price d-flex justify-content-end px-1">
-          <a href="" class="mr-auto text-muted">
-            <p><strong>₱1,540</strong></p>
-          </a>
-          <p>4.5<i class="fa-solid fa-star-half-stroke"></i></p>
+          <a href="" class="mr-auto text-muted"><p>Votes</p></a>
+          <p>324<i class="fa-solid fa-fire ml-1"></i></p>
         </div>
       </div>
     </div>
   </div>
-
     <ul class="pagination justify-content-center mb-3">
       <li class="page-item">
         <a class="page-link" href="#" aria-label="Previous">
@@ -446,7 +381,397 @@
 
   
   <!---------------------------------------- MODAL --------------------------------------------------->
+<!-- Modal -->
+<div class="modal fade pr-0" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header close-btn position-absolute border-0">
+        <button type="button" class="close pr-1" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body p-0">
+        <div class="row">
+          <!-- Art Image -->
+          <div class="col-lg-6 modalArt">
+            <img class="" src="https://images.unsplash.com/photo-1597346652979-7a3db5012809?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=693&q=80" alt="">
+          </div>
 
+          <!-- content -->
+          <div class="col-lg-6 px-md-5 pl-lg-4 pt-md-3 pt-lg-5 pb-md-4 pb-5 px-5 pt-4">
+
+              <!-- art name -->
+              <h2 class=" mb-1">Art Name</h2>
+
+              <!-- Artist profile -->
+              <div class="artist-profile d-flex text-left align-items-center pb-3">
+                <a href="" class="prof-pic"> <img src="img/profile.png" alt=""></a>
+                <p class="m-0 mr-auto"><a href="#" class="name">Artist Name</a></p>
+              </div>
+                <!-- price and rating -->
+                <div class="d-flex flex-row align-items-center justify-content-between mb-4">
+                  <div class="d-flex align-items-center text-sm stars">
+                    <span class=" pl-1 mr-1" >1 week ago</span>
+                  </div>
+                  <div class="d-flex align-items-center text-sm stars">
+                    <span class="pl-1 mr-1" > <span class="mr-2 mr-md-3">Votes</span> 413</span>
+                    <i class="fa-solid fa-fire"></i>
+                  </div>
+                </div>
+
+              <!-- description -->
+              <p class=" mb-4 text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ab nemo, amet perferendis libero corporis ea atque nesciunt recusandae, laboriosam maxime ipsam modi debitis? Quos asperiores minus id dignissimos necessitatibus?
+              </p>
+
+              <!-- Checkout form -->
+              <form action="" class="mt-5 pt-3">
+                <div class="row cat_tags">
+                  <!-- Category -->
+                  <div class="col-6">
+                    <h6 class="m-0">Category:</h6>
+                      <a href="#">
+                        Digital
+                      </a>
+                  </div>
+
+                  <!-- Tags -->
+                  <div class=" col-6">
+                    <h6 class="m-0">Tags:</h6>
+                      <a href="#">
+                        Aesthetic,
+                      </a>
+                      <a href="">
+                        Elegant
+                      </a>
+                  </div>
+                </div>
+                <div class="my-3 modal-btn">
+                  <button type="button" class="checkout py-2 flex-grow-1 btn btn-dark">UPVOTE
+                    <i style="color: rgb(247, 121, 87);" class="ml-1 fa-solid fa-fire"></i>
+                  </button>
+                  <button type="button" class="checkout py-2 flex-grow-1 btn btn-dark">DOWNVOTE
+                    <i style="color: rgb(82, 87, 196);" class="ml-1 fa-solid fa-thumbs-down"></i>
+                  </button>
+                </div>
+                
+                <!-- Modal Footer -->
+                <div class="row d-flex justify-content-between modalFooter">
+                  <div class="col-6">
+                    <div href="" class="d-flex pointer-event align-items-center">
+                      <i style="color: burlywood;" class="fa-solid fa-heart"></i>
+                      <p style="color: burlywood;" class="m-0 pl-2">Add to favorite</p>
+                    </div>
+                  </div>
+
+                  <!-- socmed -->
+                  <div class="col-6 text-right">
+                    <a href="#"><i class="fa-brands mr-2 fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands mr-2 fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands mr-2 fa-twitter"></i></a>
+                  </div>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade pr-0" id="ArtOfTheWeek" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header close-btn position-absolute border-0">
+        <button type="button" class="close pr-1" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body p-0">
+        <div class="row">
+          <!-- Art Image -->
+          <div class="col-lg-6 modalArt">
+            <img class="" src="https://images.unsplash.com/photo-1571782605941-8c8fd0d43df6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTl8fG91dGRvb3J8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" alt="">
+          </div>
+
+          <!-- content -->
+          <div class="col-lg-6 px-md-5 pl-lg-4 pt-md-3 pt-lg-5 pb-md-4 pb-5 px-5 pt-4">
+
+              <!-- art name -->
+              <h2 class=" mb-1 ">Art Name</h2>
+
+              <!-- Artist profile -->
+              <div class="artist-profile d-flex text-left align-items-center pb-3">
+                <a href="" class="prof-pic"> <img src="img/profile.png" alt=""></a>
+                <p class="m-0 mr-auto"><a href="#" class="name">Artist Name</a></p>
+              </div>
+                <!-- price and rating -->
+                <div class="d-flex flex-row align-items-center justify-content-between mb-4">
+                  <div class="d-flex align-items-center text-sm stars">
+                    <span class=" pl-1 mr-1" >1 week ago</span>
+                  </div>
+                  <div class="d-flex align-items-center text-sm stars">
+                    <span class="pl-1 mr-1" > <span class="mr-2 mr-md-3">Votes</span> 413</span>
+                    <i class="fa-solid fa-fire"></i>
+                  </div>
+                </div>
+
+              <!-- description -->
+              <p class=" mb-4 text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ab nemo, amet perferendis libero corporis ea atque nesciunt recusandae, laboriosam maxime ipsam modi debitis? Quos asperiores minus id dignissimos necessitatibus?
+              </p>
+
+              <!-- Checkout form -->
+              <form action="" class="mt-5 pt-3">
+                <div class="row cat_tags">
+                  <!-- Category -->
+                  <div class="col-6">
+                    <h6 class="m-0">Category:</h6>
+                      <a href="#">
+                        Digital
+                      </a>
+                  </div>
+
+                  <!-- Tags -->
+                  <div class=" col-6">
+                    <h6 class="m-0">Tags:</h6>
+                      <a href="#">
+                        Aesthetic,
+                      </a>
+                      <a href="">
+                        Elegant
+                      </a>
+                  </div>
+                </div>
+                <div class="my-3 modal-btn">
+                  <button type="button" class="checkout py-2 flex-grow-1 btn btn-dark">UPVOTE
+                    <i style="color: rgb(247, 121, 87);" class="ml-1 fa-solid fa-fire"></i>
+                  </button>
+                  <button type="button" class="checkout py-2 flex-grow-1 btn btn-dark">DOWNVOTE
+                    <i style="color: rgb(82, 87, 196);" class="ml-1 fa-solid fa-thumbs-down"></i>
+                  </button>
+                </div>
+                
+                <!-- Modal Footer -->
+                <div class="row d-flex justify-content-between modalFooter">
+                  <div class="col-6">
+                    <div href="" class="d-flex align-items-center pointer-event">
+                      <i style="color: burlywood;" class="fa-solid fa-heart"></i>
+                      <p style="color: burlywood;" class="m-0 pl-2">Add to favorite</p>
+                    </div>
+                  </div>
+
+                  <!-- socmed -->
+                  <div class="col-6 text-right">
+                    <a href="#"><i class="fa-brands mr-2 fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands mr-2 fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands mr-2 fa-twitter"></i></a>
+                  </div>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- top1 -->
+<div class="modal fade pr-0" id="top1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header close-btn position-absolute border-0">
+        <button type="button" class="close pr-1" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body p-0">
+        <div class="row">
+          <!-- Art Image -->
+          <div class="col-lg-6 modalArt">
+            <img class="" src="https://images.unsplash.com/photo-1542317279-72571d7a779a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fG91dGRvb3J8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" alt="">
+          </div>
+
+          <!-- content -->
+          <div class="col-lg-6 px-md-5 pl-lg-4 pt-md-3 pt-lg-5 pb-md-4 pb-5 px-5 pt-4">
+
+              <!-- art name -->
+              <h2 class=" mb-1 ">Art Name</h2>
+
+              <!-- Artist profile -->
+              <div class="artist-profile d-flex text-left align-items-center pb-3">
+                <a href="" class="prof-pic"> <img src="img/profile.png" alt=""></a>
+                <p class="m-0 mr-auto"><a href="#" class="name">Artist Name</a></p>
+              </div>
+                <!-- price and rating -->
+                <div class="d-flex flex-row align-items-center justify-content-between mb-4">
+                  <div class="d-flex align-items-center text-sm stars">
+                    <span class=" pl-1 mr-1" >1 week ago</span>
+                  </div>
+                  <div class="d-flex align-items-center text-sm stars">
+                    <span class="pl-1 mr-1" > <span class="mr-2 mr-md-3">Votes</span> 413</span>
+                    <i class="fa-solid fa-fire"></i>
+                  </div>
+                </div>
+
+              <!-- description -->
+              <p class=" mb-4 text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ab nemo, amet perferendis libero corporis ea atque nesciunt recusandae, laboriosam maxime ipsam modi debitis? Quos asperiores minus id dignissimos necessitatibus?
+              </p>
+
+              <!-- Checkout form -->
+              <form action="" class="mt-5 pt-3">
+                <div class="row cat_tags">
+                  <!-- Category -->
+                  <div class="col-6">
+                    <h6 class="m-0">Category:</h6>
+                      <a href="#">
+                        Digital
+                      </a>
+                  </div>
+
+                  <!-- Tags -->
+                  <div class=" col-6">
+                    <h6 class="m-0">Tags:</h6>
+                      <a href="#">
+                        Aesthetic,
+                      </a>
+                      <a href="">
+                        Elegant
+                      </a>
+                  </div>
+                </div>
+                <div class="my-3 modal-btn">
+                  <button type="button" class="checkout py-2 flex-grow-1 btn btn-dark">UPVOTE
+                    <i style="color: rgb(247, 121, 87);" class="ml-1 fa-solid fa-fire"></i>
+                  </button>
+                  <button type="button" class="checkout py-2 flex-grow-1 btn btn-dark">DOWNVOTE
+                    <i style="color: rgb(82, 87, 196);" class="ml-1 fa-solid fa-thumbs-down"></i>
+                  </button>
+                </div>
+                
+                <!-- Modal Footer -->
+                <div class="row d-flex justify-content-between modalFooter">
+                  <div class="col-6">
+                    <div href="" class="d-flex align-items-center pointer-event">
+                      <i style="color: burlywood;" class="fa-solid fa-heart"></i>
+                      <p style="color: burlywood;" class="m-0 pl-2">Add to favorite</p>
+                    </div>
+                  </div>
+
+                  <!-- socmed -->
+                  <div class="col-6 text-right">
+                    <a href="#"><i class="fa-brands mr-2 fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands mr-2 fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands mr-2 fa-twitter"></i></a>
+                  </div>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal photo of the week -->
+<div class="modal fade pr-0" id="POTW" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"> 
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header close-btn position-absolute border-0">
+        <button type="button" class="close pr-1" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body p-0">
+        <div class="row">
+          <!-- Art Image -->
+          <div class="col-lg-6 modalArt">
+            <img class="" src="https://images.unsplash.com/photo-1564298301619-bfc6aa011ad5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=671&q=80" alt="">
+          </div>
+
+          <!-- content -->
+          <div class="col-lg-6 px-md-5 pl-lg-4 pt-md-3 pt-lg-5 pb-md-4 pb-5 px-5 pt-4">
+
+              <!-- art name -->
+              <h2 class=" mb-1 ">Art Name</h2>
+
+              <!-- Artist profile -->
+              <div class="artist-profile d-flex text-left align-items-center pb-3">
+                <a href="" class="prof-pic"> <img src="img/profile.png" alt=""></a>
+                <p class="m-0 mr-auto"><a href="#" class="name">Artist Name</a></p>
+              </div>
+                <!-- price and rating -->
+                <div class="d-flex flex-row align-items-center justify-content-between mb-4">
+                  <div class="d-flex align-items-center text-sm stars">
+                    <span class=" pl-1 mr-1" >1 week ago</span>
+                  </div>
+                  <div class="d-flex align-items-center text-sm stars">
+                    <span class="pl-1 mr-1" > <span class="mr-2 mr-md-3">Votes</span> 413</span>
+                    <i class="fa-solid fa-fire"></i>
+                  </div>
+                </div>
+
+              <!-- description -->
+              <p class=" mb-4 text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ab nemo, amet perferendis libero corporis ea atque nesciunt recusandae, laboriosam maxime ipsam modi debitis? Quos asperiores minus id dignissimos necessitatibus?
+              </p>
+
+              <!-- Checkout form -->
+              <form action="" class="mt-5 pt-3">
+                <div class="row cat_tags">
+                  <!-- Category -->
+                  <div class="col-6">
+                    <h6 class="m-0">Category:</h6>
+                      <a href="#">
+                        Digital
+                      </a>
+                  </div>
+
+                  <!-- Tags -->
+                  <div class=" col-6">
+                    <h6 class="m-0">Tags:</h6>
+                      <a href="#">
+                        Aesthetic,
+                      </a>
+                      <a href="">
+                        Elegant
+                      </a>
+                  </div>
+                </div>
+                <div class="my-3 modal-btn">
+                  <button type="button" class="checkout py-2 flex-grow-1 btn btn-dark">UPVOTE
+                    <i style="color: rgb(247, 121, 87);" class="ml-1 fa-solid fa-fire"></i>
+                  </button>
+                  <button type="button" class="checkout py-2 flex-grow-1 btn btn-dark">DOWNVOTE
+                    <i style="color: rgb(82, 87, 196);" class="ml-1 fa-solid fa-thumbs-down"></i>
+                  </button>
+                </div>
+                
+                <!-- Modal Footer -->
+                <div class="row d-flex justify-content-between modalFooter">
+                  <div class="col-6">
+                    <div class="d-flex pointer-event align-items-center">
+                      <i style="color: burlywood;" class="fa-solid fa-heart"></i>
+                      <p style="color: burlywood;" class="m-0 pl-2">Add to favorite</p>
+                    </div>
+                  </div>
+
+                  <!-- socmed -->
+                  <div class="col-6 text-right">
+                    <a href="#"><i class="fa-brands mr-2 fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands mr-2 fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands mr-2 fa-twitter"></i></a>
+                  </div>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
   <!-- Modal -->
   <div class="modal fade pr-0" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -559,44 +884,44 @@
         <div class="row py-sm-5 py-4">
           <!-- service 1 -->
           <div class="col-lg-3 col-sm-6 service py-4 d-flex align-items-center free-shipping">
-            <i class="fa-solid fa-truck-fast fa-2x pr-3 ml-md-0 ml-sm-5 mr-3 mx-sm-0"></i>
+            <i class="fa-solid fa-brain fa-2x pr-3 ml-md-0 ml-sm-5 mr-3 mx-sm-0"></i>
             <div class="service-text">
-              <h6 class="m-0">Free shipping & return</h6>
-              <p class=" text-muted mb-0">
-                Free shipping over ₱1,000
+              <h6 class="m-0 mb-1 font-weight-bold">CREATIVITY</h6>
+              <p class=" text-muted mb-0"> 
+                Imagination, and ability to convey perspective or emotion.
               </p>
             </div>
           </div>
-
+  
           <!-- service 2 -->
           <div class="col-lg-3 col-sm-6 d-flex align-items-center service py-4">
-            <i class="fa-solid fa-hand-holding-dollar fa-2x pr-3 mr-3 mx-sm-0"></i>
+            <i class="fa-solid fa-person-through-window fa-2x pr-3 mr-2 mx-sm-0"></i>
             <div class="service-text ">
-              <h6 class="m-0">Money back guarantee</h6>
-              <p class=" text-muted mb-0">
-                30 Days Money Back Guarantee
+              <h6 class="m-0 mb-1 font-weight-bold">Composition</h6>
+              <p class=" text-muted mb-0 "> 
+                Overall visual impact including balance and harmony
               </p>
             </div>
           </div>
-
+  
           <!-- service 3 -->
           <div class="col-lg-3 col-sm-6 d-flex align-items-center service py-4 best-price">
-            <i class="fa-solid fa-money-bill-1-wave fa-2x pr-3 ml-md-0 ml-sm-5 mr-3 mx-sm-0"></i>
+            <i class="fa-solid fa-camera-retro fa-2x pr-3 ml-md-0 ml-sm-5 mr-3 mx-sm-0"></i>
             <div class="service-text">
-              <h6 class="m-0">Best Prices</h6>
-              <p class=" text-muted mb-0">
-                Always the best prices
+              <h6 class="m-0 mb-1 font-weight-bold">Technical</h6>
+              <p class=" text-muted mb-0"> 
+                Factors that contribute to the quality of the image.
               </p>
             </div>
           </div>
-
+  
           <!-- service 4 -->
           <div class="col-lg-3 col-sm-6 d-flex align-items-center service py-4">
-            <i class="fa-solid fa-headset fa-2x pr-3 mr-3 mx-sm-0"></i>
+            <i class="fa-solid fa-book-open-reader fa-2x pr-3 mr-3 mx-sm-0"></i>
             <div class="service-text">
-              <h6 class="m-0">09123456789</h6>
-              <p class=" text-muted mb-0">
-                24/7 Available Support
+              <h6 class="m-0 mb-1 font-weight-bold">Storytelling</h6>
+              <p class=" text-muted mb-0"> 
+                ability of the photo to tell a story or convey a message
               </p>
             </div>
           </div>
@@ -606,47 +931,44 @@
 
     <!-- footer -->
     <div class="container-md pt-5 footer-list">
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0 pl-sm-5 pl-md-0 footer-brand">
+      <div class="row flex-row">
+        <div class="col-lg-4 col-12 mb-5 mb-lg-0 pl-md-0 footer-brand">
           <h6 class="mb-3">Beau Art</h6>
-          <p class=" text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi corporis ex labore
-            culpa consectetur hic dolor. Nobis iusto natus velit.</p>
+          <p class=" text-muted text-justify">BEAU ART is to create a dynamic platform that celebrates the diversity and creativity of contemporary art. Through our website, we aim to showcase emerging and established artists from around the world.</p>
         </div>
-        <div class="col-lg-2 col-sm-6 mb-5 mb-lg-0">
-          <h6 class="mb-3">SHOP</h6>
+        <div class="col-lg-2 col-6 mb-5 mb-lg-0 pl-3 pl-md-0 pl-lg-3">
+          <h6 class="mb-3">PHOTOS</h6>
           <ul class="list-unstyled">
-            <li><a href="" class=" text-muted">Digital Art</a></li>
-            <li><a href="" class=" text-muted">Traditional Art</a></li>
-            <li><a href="" class=" text-muted">Shop</a></li>
+            <li><a href="" class=" text-muted">Digital </a></li>
+            <li><a href="" class=" text-muted">Traditional </a></li>
+            <li><a href="" class=" text-muted">All Photos</a></li>
             <li><a href="" class=" text-muted">Our Blog</a></li>
           </ul>
         </div>
-        <div class="col-lg-2 col-sm-6 mb-5 mb-lg-0 pl-sm-5 pl-md-0">
+        <div class="col-lg-2 col-6 mb-5 mb-lg-0 ">
           <h6 class="mb-3">COMPANY</h6>
           <ul class="list-unstyled">
             <li><a href="" class=" text-muted">Login</a></li>
             <li><a href="" class=" text-muted">Register</a></li>
             <li><a href="" class=" text-muted">Wishlist</a></li>
-            <li><a href="" class=" text-muted">Checkouts</a></li>
+            <li><a href="" class=" text-muted">Voted</a></li>
           </ul>
         </div>
-        <div class="col-lg-4 col-sm-6  mb-5 mb-lg-0">
+        <div class="col-lg-4 col-12 mb-5 mb-lg-0 pl-3 pl-md-0">
           <h6 class="mb-3">BE IN TOUCH</h6>
-          <p class="mb-3 text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos aliquid maiores
-            aperiam facere temporibus veritatis!</p>
+          <p class="mb-3 text-muted">Get in touch with us! We're always happy to hear from our audience and answer any questions you may have.</p>
           <div class="input-group-underlined input-group beInTouch">
-            <input type="email" placeholder="Your Email Address" aria-label="Your Email Address"
-              class="form-control-underlined form-control border-bottom">
+            <input type="email" placeholder="Your Email Address" aria-label="Your Email Address" class="form-control-underlined form-control border-bottom">
             <button class="btn border-bottom"><i class="fa-solid fa-paper-plane"></i></button>
           </div>
         </div>
       </div>
     </div>
-
+    
     <div class="container my-3">
       <div class="row ">
         <div class="col-md-6 pl-0 copyright">
-          <p class=" text-muted text-center text-md-left m-0">© 2020 Beau Art. All rights reserved.</p>
+          <p class=" text-muted text-center text-md-left m-0">© 2023 Beau Art.  All rights reserved.</p>
         </div>
         <div class="col-md-6 text-center socmed">
           <a href="#"><i class="fa-brands mr-2 fa-facebook-f"></i></a>
@@ -658,11 +980,6 @@
       </div>
     </div>
   </footer>
-
-
-
-
-
 
   <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
   <script type="text/javascript" src="../js/jquery.js"></script>
