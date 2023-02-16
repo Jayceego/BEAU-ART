@@ -329,6 +329,15 @@ input{
 }
 .swiper{
   width: 100%;
+
+  .img{
+    img{
+      width: 100%;
+      height: calc(100% - 2px) !important;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
   
   .swiper-slide {
     position: relative;
@@ -547,7 +556,6 @@ input{
 // *************************** MODAL
 .modal-body{
   overflow-x: hidden;
-  
 
   .modalArt{
     overflow: hidden;
@@ -557,7 +565,8 @@ input{
 
     img{
       width: 100%;
-      height: auto;
+      object-fit: cover;
+      object-position: center;
     }
     
   }

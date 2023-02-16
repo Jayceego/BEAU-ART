@@ -293,6 +293,14 @@ input {
 .swiper {
   width: 100%;
 }
+.swiper .img img {
+  width: 100%;
+  height: calc(100% - 2px) !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
 .swiper .swiper-slide {
   position: relative;
   background-position: center;
@@ -497,7 +505,10 @@ input {
 }
 .modal-body .modalArt img {
   width: 100%;
-  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 .modal-body .modal-btn {
   display: flex;
