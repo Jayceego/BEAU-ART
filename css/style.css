@@ -182,13 +182,18 @@ input {
 }
 
 .explore {
+  color: rgba(56, 56, 56, 0.9137254902) !important;
   z-index: 5;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 30px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(222, 184, 135, 0.21), 0 0px 30px 0 rgba(222, 184, 135, 0.466);
   border-radius: 0px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;
   -o-border-radius: 0px;
+}
+
+.explore:hover {
+  color: white !important;
 }
 
 .categories a {
@@ -270,6 +275,21 @@ input {
   font-weight: 500;
   font-size: 1.1rem;
   color: rgba(109, 109, 109, 0.7725490196);
+}
+
+.swiper {
+  width: 100vw;
+  height: 30vh;
+}
+.swiper .swiper-slide img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.swiper .swiper-pagination {
+  height: 1rem;
+  width: 100vw;
 }
 
 .fa-fire {
@@ -527,7 +547,7 @@ form .fa-star-half-stroke, form .fa-star {
 }
 
 .aotw {
-  background-color: #fff0f0;
+  background-color: #fff9f0;
   overflow: hidden;
   width: 100vw;
 }
