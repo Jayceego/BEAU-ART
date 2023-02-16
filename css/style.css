@@ -196,6 +196,39 @@ input {
   color: white !important;
 }
 
+.categories-container {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.categories-container .swiper {
+  width: 300px;
+  height: 400px;
+}
+.categories-container .swiper-slide {
+  width: 100% !important;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+}
+.categories-container .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: calc(100% - 10px);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.categories-container .swiper-wrapper .texts {
+  top: 0;
+  z-index: 5;
+  left: 1rem !important;
+  top: 0 !important;
+  color: rgba(255, 255, 255, 0.685);
+}
+.categories-container .swiper-wrapper .texts h2 {
+  font-weight: 900;
+}
+
 .categories a {
   color: black;
 }
@@ -218,8 +251,12 @@ input {
   text-align: left;
 }
 .digital-img img, .traditional-img img {
-  width: clamp(100px, 100%, 309px);
-  height: auto;
+  width: 100%;
+  height: calc(100% - 50rem);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
   transition: all 500ms ease;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -277,23 +314,21 @@ input {
   color: rgba(109, 109, 109, 0.7725490196);
 }
 
-.title-rank {
+.rankings .title-rank {
   color: burlywood;
   font-weight: bold;
   font-size: clamp(2rem, 10vw, 4rem);
 }
-
-.subtext-rank {
+.rankings .subtext-rank {
   font-family: Poppins;
   font-weight: 500;
   font-size: 1.1rem;
   color: #6d6d6d;
 }
-
-.swiper {
+.rankings .swiper {
   width: 100%;
 }
-.swiper .img img {
+.rankings .swiper .img img {
   width: 100%;
   height: calc(100% - 2px) !important;
   -o-object-fit: cover;
@@ -301,27 +336,27 @@ input {
   -o-object-position: center;
      object-position: center;
 }
-.swiper .swiper-slide {
+.rankings .swiper .swiper-slide {
   position: relative;
   background-position: center;
   background-size: cover;
   width: clamp(150px, 100vw - 100px, 300px);
   height: auto;
 }
-.swiper .swiper-slide img {
+.rankings .swiper .swiper-slide img {
   display: block;
   width: 100%;
 }
-.swiper .top1 {
+.rankings .swiper .top1 {
   background-color: #ffd700;
 }
-.swiper .top2 {
+.rankings .swiper .top2 {
   background-color: #c0c0c0;
 }
-.swiper .top3 {
+.rankings .swiper .top3 {
   background-color: #cd7f32;
 }
-.swiper .top-below {
+.rankings .swiper .top-below {
   background-color: rgba(158, 158, 158, 0.731);
 }
 

@@ -224,6 +224,42 @@ input{
 }
 
 // categories
+
+.categories-container{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  .swiper{  
+    width: 300px;
+    height: 400px;
+  }
+  .swiper-slide {
+    width: 100% !important;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: calc(100% - 10px);
+    object-fit: cover;
+  }
+  .swiper-wrapper{
+    .texts{
+      top: 0;
+      z-index: 5;
+      left: 1rem !important;
+      top: 0 !important;
+      color: rgba(255, 255, 255, 0.685) ;
+
+      h2{
+        font-weight: 900;
+      }
+    }
+  }
+}
 .categories{
   a{
     color: black;
@@ -249,8 +285,11 @@ input{
   text-align: left;
 
   img{
-    width:clamp(100px, 100%, 309px);
-    height: auto;
+    // width: 100%;
+    width:100%;
+    height: calc(100% - 50rem);
+    object-fit: cover;
+    object-position: center;
     transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
@@ -316,52 +355,54 @@ input{
   }
 }
 // RANKING
-.title-rank{
-  color: burlywood;
-  font-weight: bold;
-  font-size: clamp(2rem, 10vw, 4rem);
-}
-.subtext-rank{
-  font-family: Poppins;
-  font-weight: 500;
-  font-size: 1.1rem;
-  color: #6d6d6d;
-}
-.swiper{
-  width: 100%;
-
-  .img{
-    img{
-      width: 100%;
-      height: calc(100% - 2px) !important;
-      object-fit: cover;
-      object-position: center;
-    }
+.rankings{
+  .title-rank{
+    color: burlywood;
+    font-weight: bold;
+    font-size: clamp(2rem, 10vw, 4rem);
   }
+  .subtext-rank{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #6d6d6d;
+  }
+  .swiper{
+    width: 100%;
   
-  .swiper-slide {
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    width: clamp(150px, 100vw - 100px, 300px);
-    height: auto;
-
-    img {
-      display: block;
-      width: 100%;
+    .img{
+      img{
+        width: 100%;
+        height: calc(100% - 2px) !important;
+        object-fit: cover;
+        object-position: center;
+      }
     }
-  }
-  .top1{
-    background-color: $gold;
-  }
-  .top2{
-    background-color: $silver;
-  }
-  .top3{
-    background-color: $bronze;
-  }
-  .top-below{
-    background-color: rgba(158, 158, 158, 0.731);
+    
+    .swiper-slide {
+      position: relative;
+      background-position: center;
+      background-size: cover;
+      width: clamp(150px, 100vw - 100px, 300px);
+      height: auto;
+  
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+    .top1{
+      background-color: $gold;
+    }
+    .top2{
+      background-color: $silver;
+    }
+    .top3{
+      background-color: $bronze;
+    }
+    .top-below{
+      background-color: rgba(158, 158, 158, 0.731);
+    }
   }
 }
 
