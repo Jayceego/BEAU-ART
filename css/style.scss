@@ -316,6 +316,17 @@ input{
   }
 }
 // RANKING
+.title-rank{
+  color: burlywood;
+  font-weight: bold;
+  font-size: clamp(2rem, 10vw, 4rem);
+}
+.subtext-rank{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #6d6d6d;
+}
 .swiper{
   width: 100%;
   
@@ -361,6 +372,13 @@ input{
   }
   .zoom{
     img{
+      width: 100%;
+      height: calc(20vw - 10px);
+      min-height: 15rem;
+      max-height: 20rem;
+      object-fit: cover;
+      object-position: center;
+      vertical-align: middle;
       border-radius: 10px;
       -webkit-border-radius: 10px;
       -moz-border-radius: 10px;
@@ -394,6 +412,7 @@ input{
 }
 
 .art{
+  background-color: transparent;
   transition: all 300ms ease;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -401,26 +420,21 @@ input{
     -o-transition: all 300ms ease;
 
   .art-img{
-    
+    background-color: transparent;
     transition: all 300ms ease;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
     overflow: hidden !important;
-
-    img{
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-      vertical-align: middle;
-    }
+    -o-transition: all 300ms ease;
+        
     .fa-heart{
       transition: all 300ms ease;
       -webkit-transition: all 300ms ease;
       -moz-transition: all 300ms ease;
       -ms-transition: all 300ms ease;
       -o-transition: all 300ms ease;
-}
+    }
     .fa-heart:hover{
       color: rgba(255, 0, 0, 0.521);
     }
@@ -447,6 +461,10 @@ input{
 
   .sub-text{
     display: flex;
+
+    i{
+      cursor: pointer;
+    }
     
 
     .profile img{
@@ -806,7 +824,6 @@ form{
   }
 
 }
-
 
 .socmed{
   display: flex;

@@ -277,6 +277,19 @@ input {
   color: rgba(109, 109, 109, 0.7725490196);
 }
 
+.title-rank {
+  color: burlywood;
+  font-weight: bold;
+  font-size: clamp(2rem, 10vw, 4rem);
+}
+
+.subtext-rank {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #6d6d6d;
+}
+
 .swiper {
   width: 100%;
 }
@@ -319,6 +332,15 @@ input {
   color: rgba(20, 20, 20, 0.4509803922) !important;
 }
 .items .zoom img {
+  width: 100%;
+  height: calc(20vw - 10px);
+  min-height: 15rem;
+  max-height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  vertical-align: middle;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -347,6 +369,7 @@ input {
 }
 
 .art {
+  background-color: transparent;
   transition: all 300ms ease;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
@@ -354,18 +377,13 @@ input {
   -o-transition: all 300ms ease;
 }
 .art .art-img {
+  background-color: transparent;
   transition: all 300ms ease;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
   overflow: hidden !important;
-}
-.art .art-img img {
-  width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-  vertical-align: middle;
+  -o-transition: all 300ms ease;
 }
 .art .art-img .fa-heart {
   transition: all 300ms ease;
@@ -395,6 +413,9 @@ input {
 }
 .art .sub-text {
   display: flex;
+}
+.art .sub-text i {
+  cursor: pointer;
 }
 .art .sub-text .profile img {
   width: 25px !important;
